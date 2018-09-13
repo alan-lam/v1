@@ -1,0 +1,90 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(31,26,22);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.front {
+  background-image: url('./pictures/tracks.jpg');
+  height: 90%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.caption {
+  color: white;
+  text-align: right;
+  margin-bottom: 2%;
+  margin-right: 2%;
+}
+
+.about {
+  color: grey;
+  background-color: black;
+  height: 100%;
+  overflow: auto;
+}
+
+.about h1 {
+  margin-bottom: 3%;
+}
+
+.about p {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.icons {
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  color: white;
+}
+
+#profile {
+  width: 200px;
+  border-radius: 5%;
+  border: 2px silver solid;
+  display: block;
+  margin: 0 auto;
+}
+
+.random {
+  background-color: black;
+  color: gray;
+}
+
+#text-carousel {
+  padding: 10%;
+}
+
+.carousel-content {
+  padding-left: 5%;
+  padding-right: 5%;
+  min-height: 200px;
+}
+
+#tab {
+  padding-left: 3%;
+}
+
+#letter {
+  max-width: 100%;
+}
+
+.footer {
+  color: gray;
+  background-color: black;
+}

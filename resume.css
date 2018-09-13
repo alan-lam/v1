@@ -1,0 +1,45 @@
+html, body {
+  font-family: "Trebuchet MS";
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5%;
+}
+
+button {
+  position: absolute;
+  right: 80px;
+  top: 10px;
+}
+
+.tab {
+  margin-left: 50px;
+}
+
+.container {
+  margin-top: 5%;
+}
+
+.center {
+  text-align: center;
+}
+
+.link {
+  color: gray;
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
+
+.info .col-md {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#flex_col {
+  flex-direction: column;
+}
+
+li {
+  display: inline;
+  padding-right: 50px;
+}
